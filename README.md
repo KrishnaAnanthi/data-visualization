@@ -2,4 +2,6 @@
 
 Please find the below screenshots of sunburst charts created using highcharts
 
-![Game](./map.PNG)
+![world_map](./map.PNG)
+![asia](./map.PNG)
+![south_asia](./map.PNG)
