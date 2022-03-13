@@ -18,9 +18,9 @@ export class AppComponent {
       name: 'The World',
     },
     {
-      id: '1.3',
+      id: '1.2',
       parent: '0.0',
-      name: 'Asia',
+      name: 'America',
     },
     {
       id: '1.1',
@@ -28,9 +28,9 @@ export class AppComponent {
       name: 'Africa',
     },
     {
-      id: '1.2',
+      id: '1.3',
       parent: '0.0',
-      name: 'America',
+      name: 'Asia',
     },
     {
       id: '1.4',
@@ -1611,7 +1611,7 @@ export class AppComponent {
     },
 
     // Let the center circle be transparent
-    colors: ['transparent'].concat(Highcharts.getOptions().colors),
+    colors: ['transparent'].concat(Highcharts.getOptions().colors.slice(2)),
 
     title: {
       text: 'World population 2019',
