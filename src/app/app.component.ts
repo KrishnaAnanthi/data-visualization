@@ -1614,7 +1614,7 @@ export class AppComponent {
     colors: ['transparent'].concat(Highcharts.getOptions().colors),
 
     title: {
-      text: 'World population 2017',
+      text: 'World population 2019',
     },
 
     subtitle: {
